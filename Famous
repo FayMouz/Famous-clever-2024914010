@@ -1,0 +1,29 @@
+FUNCTION calculateGrade(score)
+    IF score >= 70 AND score <= 100 THEN
+        RETURN "A"
+    ELSE IF score >= 60 AND score <= 69 THEN
+        RETURN "B"
+    ELSE IF score >= 50 AND score <= 59 THEN
+        RETURN "C"
+    ELSE IF score >= 45 AND score <= 49 THEN
+        RETURN "D"
+    ELSE IF score >= 40 AND score <= 44 THEN
+        RETURN "E"
+    ELSE IF score < 40 THEN
+        RETURN "F"
+    END IF
+END FUNCTION
+
+def calculate_grade(score):
+    if 70 <= score <= 100:
+        return "A"
+    elif 60 <= score <= 69:
+        return "B"
+    elif 50 <= score <= 59:
+        return "C"
+    elif 45 <= score <= 49:
+        return "D"
+    elif 40 <= score <= 44:
+        return "E"
+    else:
+        return "F"
